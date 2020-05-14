@@ -4,7 +4,10 @@
 - authorized_keys
 - run.sh
 - Dockerfile
+- id_rsa
 
 autherized_keys内是自己创建的一组秘钥中的公钥，自己保留私钥用于连接
 
 run.sh是开机启动sshd的脚本
+
+id_rsa是配对使用的私钥
